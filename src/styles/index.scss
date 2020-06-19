@@ -1,0 +1,21 @@
+// config
+@import '_variables';
+
+// layout
+@import '_reboot';
+
+// mixin
+@import '_mixin';
+
+// animation
+@import 'animation';
+
+// 需要保持引入顺序，现有一系列变量，才有组件当中的使用
+// button
+@import '../components/Button/style';
+
+// menu
+@import '../components/Menu/style';
+
+// icon
+@import '../components/Icon/style';
